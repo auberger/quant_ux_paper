@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Outputs (these will be generated when notebooks run)
+# Uncomment if you want to exclude generated outputs from repo:
+# outputs/*.csv
+# figures/*.png
+
+# Only ignore if outputs are too large, otherwise commit them
+# so users can verify their results match yours
